@@ -255,4 +255,5 @@ ON runners.email = loungers.email
 WHERE runners.created_at_pacific_timestamp < loungers.created_at_pacific_timestamp
 
 4.	How (if at all) would you change this schema to better support queries of this kind?
+- Create database views to hide complex queries 
 """
